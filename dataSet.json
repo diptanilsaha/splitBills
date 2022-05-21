@@ -1,0 +1,102 @@
+{
+  "friendCount": 5,
+  "friends": [
+    {
+      "name": "a",
+      "amountPaid": 400.0,
+      "toReceive": false,
+      "toGive": true,
+      "amountGive": 600.0,
+      "amountReceive": 0,
+      "transaction": {
+        "details": [
+          {
+            "transactionId": 1,
+            "receiveFrom": null,
+            "sendTo": "d",
+            "amount": 100.0
+          },
+          {
+            "transactionId": 2,
+            "receiveFrom": null,
+            "sendTo": "e",
+            "amount": 500.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "b",
+      "amountPaid": 100.0,
+      "toReceive": false,
+      "toGive": true,
+      "amountGive": 900.0,
+      "amountReceive": 0,
+      "transaction": {
+        "details": [
+          {
+            "transactionId": 3,
+            "receiveFrom": null,
+            "sendTo": "e",
+            "amount": 900.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "c",
+      "amountPaid": 1000.0,
+      "toReceive": false,
+      "toGive": false,
+      "amountGive": 0,
+      "amountReceive": 0,
+      "transaction": {
+        "details": []
+      }
+    },
+    {
+      "name": "d",
+      "amountPaid": 1100.0,
+      "toReceive": true,
+      "toGive": false,
+      "amountGive": 0,
+      "amountReceive": 100.0,
+      "transaction": {
+        "details": [
+          {
+            "transactionId": 1,
+            "sendTo": null,
+            "receiveFrom": "a",
+            "amount": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "e",
+      "amountPaid": 2400.0,
+      "toReceive": true,
+      "toGive": false,
+      "amountGive": 0,
+      "amountReceive": 1400.0,
+      "transaction": {
+        "details": [
+          {
+            "transactionId": 2,
+            "sendTo": null,
+            "receiveFrom": "a",
+            "amount": 500.0
+          },
+          {
+            "transactionId": 3,
+            "sendTo": null,
+            "receiveFrom": "b",
+            "amount": 900.0
+          }
+        ]
+      }
+    }
+  ],
+  "costPerPerson": 1000.0,
+  "totalCost": 5000.0
+}
